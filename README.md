@@ -1,5 +1,5 @@
 # Odometer
-A Calibration-Free Synthesizable Odometer Featuring Automatic Frequency Dead Zone Escape and Start-up Glitch Removal  
+A Calibration-Free Synthesizable Odometer Featuring Automatic Frequency Dead Zone Escape and Start-up Glitch Removal.  
 RTL folder contains verilog files for synthesis and Testbench folder contains the testbench to check the functionality.
 
 In the RTL folder, "ROSC101_SEL\_\*" are codes for stress ring oscillators, "ROSC103_SEL\_\*\_REF" are for reference ring oscillators.

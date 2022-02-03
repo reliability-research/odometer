@@ -29,7 +29,7 @@ endmodule
 
 
 
-//b15qgbbd4an1n05x5 Block for controlling the virtual VDD and ring oscillator selection
+// Block for controlling the virtual VDD and ring oscillator selection
 module ROSC101_control (SEL_INV, SEL_NAND, SEL_NOR, IN_INV, IN_NAND, IN_NOR, OUT_INV, OUT_NAND, OUT_NOR, START, AC_DC, VCO, EN_POWER_ROSC, EN_ROSC, MEAS_STRESS, VDD, VSS, OUT, MOD_VDD_INV, MOD_VDD_NAND, MOD_VDD_NOR );
 	output IN_INV, IN_NAND, IN_NOR;
 	wire IN_INV, IN_NAND, IN_NOR;

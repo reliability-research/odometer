@@ -70,7 +70,7 @@ initial
     #100  RESETB_r       = 1'b1 ; // Release reset 
                  repeat (6)
             begin
-              SCANIN_DIN_r   = 1'b0 ;    // Clear out all control registers and place in idle state
+              SCANIN_DIN_r   = 1'b0 ;   // Clear out all control registers and place in idle state
               #50 SCANIN_CLK_r = ~SCANIN_CLK_r ;
             end
 

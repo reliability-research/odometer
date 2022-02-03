@@ -11,7 +11,6 @@ module odometer_meas_test_detect (ROSC_REF, ROSC_STRESS, PC_OUT, RESETB, MEAS_ST
 	reg [1:0] cnt4;
 	wire RESET_INT, RESET_INT2,cnt1, RESET_MEAS_STRESS,COUNT4_RST;
 	
-	//b15tihi00an1n03x5 TIEHI(.X (tiehi));
 
 	always @ (PIN or PIN2 or cnt4)
 	if (PIN2 == 10'b1111111111 || PIN == 10'b1111111111 || cnt4 == 2'b11)

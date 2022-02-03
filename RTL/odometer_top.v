@@ -1,5 +1,5 @@
 `timescale 1ns/100ps
-
+// Odometer top block with scan chains and measurement units
 module odometer_meas_test_detect (ROSC_REF, ROSC_STRESS, PC_OUT, RESETB, MEAS_STRESS,MEAS_DONE,PIN,DETECT, SEL);
 	input ROSC_REF, PC_OUT, RESETB, MEAS_STRESS, ROSC_STRESS;
 

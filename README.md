@@ -1,4 +1,4 @@
-# Odometer
+# Synthesizable Silicon Odometer Aging Sensor
 
 RTL folder contains verilog files for synthesis and Testbench folder contains the testbench to check the functionality.
 
